@@ -103,3 +103,15 @@ body {
     background-size: 20px 20px;
   }
 }
+
+
+/* Hide the Netlify injected badge */
+#netlify-badge,
+[data-netlify-badge],
+iframe[src*="netlify"],
+.netlify-badge {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
